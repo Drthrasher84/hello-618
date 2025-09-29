@@ -9,7 +9,7 @@ app.use(cors());
 postsRoutes(app);
 
 app.get("/", (req, res) => {
-  res.send("Hello from Express!");
+  res.send("Hello from Express Nodemon!");
 });
 
 export { app };
